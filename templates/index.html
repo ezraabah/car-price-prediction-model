@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="mystyle.css">
     <title> Car Price Estimator</title>
 </head>
 
@@ -48,6 +47,69 @@
             <br><br>
 			<button id="sub" type="submit">Calculate the Selling Price</button>
             <br>
+			<br><br><h3>{{ prediction_text }}<h3>
+			
+			<style>
+				body{
+				background:url('car.jpeg');
+				background-size:cover;
+				font-family:Arial;
+			}
+
+			.wrap{
+				max-width:350px;
+				border-radius:15px;
+				margin:auto;
+				background:rgba(0,0,0,0.8);
+				box-sizing:border-box;
+				padding:40px;
+				color:fff;
+				margin-top:100px;
+			}
+
+			h2{
+				text-align:centre;
+				color:white;
+
+			}
+			h3{
+				color:white;
+				font-size:13px;
+
+			}
+
+			input, select{
+				width:100%;
+				box-sizing:border-box;
+				padding:8px 5px;
+				background:rgba(white,0.80);
+				border:white;
+				border-radius:10px;
+			}
+
+			button{
+				width:100%;
+				box-sizing:border-box;
+				padding:10px 0;
+				margin-top:30px;
+				background:gray;
+				border-radius:10px;
+				color:white;
+				opacity:0.9;
+			}
+
+			button:hover{
+				width:100%;
+				box-sizing:border-box;
+				padding:10px 0;
+				margin-top:30px;
+				background:#429bb8;
+				border-radius:10px;
+				color:white;
+				
+			}
+			
+			</style>
 	</form>
 </body>
 
