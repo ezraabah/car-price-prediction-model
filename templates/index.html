@@ -13,26 +13,26 @@
 	<form>
         <form action="{{ url_for('predict')}}" method="post">
 			<h2> Car Value Estimator </h2>
-            <h3>Year</h3>
+            <h3>In what year was your car manufactured? </h3>
             <input id="first" name="Year" type="number" min="1980" max="2020" required="required"><br><br>
 			
-            <h3>Enter the Showroom Price?(In lakhs)</h3>
+            <h3>What is the Showroom Price of your car?(In lakhs)</h3>
 			<input id="second" name="Present_Price" required="required"><br><br>
 			
-            <h3>Enter car mileage</h3>
+            <h3>Please enter car mileage</h3>
 			<input id="third" name="Kms_Driven" required="required"><br><br>
 			
-            <h3>Number of previous owners</h3>
+            <h3> Enter number of previous owners</h3>
 			<input id="fourth" name="Owner" min="0" max="3"required="required"><br><br>
 			
-            <h3>Please identify the type of fuel</h3>
+            <h3>Please identify the type of fuel used</h3>
 			<select name="Fuel_Type_Petrol" id="fuel" required="required">
                 <option value="Petrol">Petrol</option>
                 <option value="Diesel">Diesel</option>
                 <option value="Diesel">CNG</option>
             </select><br><br>
 			
-            <h3>Are you A Dealer or Individual</h3>
+            <h3>Are you A Dealer or Individual?</h3>
 			<select name="Seller_Type_Individual" id="resea" required="required">
                 <option value="Dealer">Dealer</option>
                 <option value="Individual">Individual</option>
